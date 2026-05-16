@@ -18,7 +18,7 @@ const SinUpPage = () => {
     password: user.password, // hmdashdat25@gmail.com
    
 });
-     console.log(data, error)
+    window.location.href = '/login'
   };
     return (
        <div className="p-5 bg-white shadow w-fit mx-auto mt-4">
